@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import Stats from './Stats';
 import Stopwatch from './Stopwatch';
 
@@ -13,7 +15,7 @@ const Header = props => {
 }
 
 Header.propTypes = {
-  players: React.PropTypes.array.isRequired,
+  players: PropTypes.array.isRequired,
 };
 
 export default Header;
