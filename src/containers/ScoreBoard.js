@@ -3,6 +3,7 @@ import React from 'react';
 
 import Stopwatch from '../components/Stopwatch';
 import Stats from '../components/Stats';
+import Counter from '../components/Counter';
 
 const INITIAL_STATE = {
   players: [
@@ -109,24 +110,6 @@ Player.propTypes = {
 
 // ----------------------------------------------------------
 
-function Counter(props) {
- return (
-   <div className="counter" >
-     <button className="counter-action decrement" onClick={() => props.onChange(-1)}>
-       -
-     </button>
-     <div className="counter-score"> {props.score} </div>
-     <button className="counter-action increment" onClick={() => props.onChange(1)}>
-       +
-     </button>
-   </div>
- );
-}
-
-Counter.propTypes = {
-  onChange: React.PropTypes.func.isRequired,
-  score: React.PropTypes.number.isRequired,
-};
 
 const AddPlayerForm = React.createClass({
   propTypes: {
