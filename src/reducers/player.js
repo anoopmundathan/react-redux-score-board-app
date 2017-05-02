@@ -16,7 +16,7 @@ const initialState = [
 ];
 
 export default function Player(state=initialState, action) {
-  switch(action) {
+  switch(action.type) {
     case PlayerActionTypes.ADD_PLAYER:
       return [
         ...state,

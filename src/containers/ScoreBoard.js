@@ -16,7 +16,7 @@ class ScoreBoard extends Component {
 
   render() {
     const { dispatch, players } = this.props;
-
+  
     const addPlayer = bindActionCreators(PlayerActionCreators.addPlayer, dispatch);
     const removePlayer = bindActionCreators(PlayerActionCreators.removePlayer, dispatch);
     const updatePlayerScore = bindActionCreators(PlayerActionCreators.updatePlayerScore, dispatch);
