@@ -21,7 +21,7 @@ class ScoreBoard extends Component {
     const removePlayer = bindActionCreators(PlayerActionCreators.removePlayer, dispatch);
     const updatePlayerScore = bindActionCreators(PlayerActionCreators.updatePlayerScore, dispatch);
 
-    const playerComponents = player.map((player, index) => (
+    const playerComponents = players.map((player, index) => (
       <Player 
         index={index}
         name={player.name}
