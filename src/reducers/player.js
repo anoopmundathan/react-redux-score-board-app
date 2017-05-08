@@ -5,20 +5,20 @@ const initialState = {
     {
       name: 'Jim Hoskins',
       score: 31,
-      created: '201704/29',
-      updated: 10
+      created: '2017/04/29',
+      updated: '2017/04/29'
     },
     {
       name: 'Andrew Chalkley',
       score: 20,
       created: '2017/04/30',
-      updated: 9
+      updated: '2017/04/29'
     },
     {
       name: 'Alena Holligan',
       score: 50,
       created: '2017/04/01',
-      updated: 12
+      updated: '2017/04/29'
     }
   ],
   selectedPlayerIndex: -1
