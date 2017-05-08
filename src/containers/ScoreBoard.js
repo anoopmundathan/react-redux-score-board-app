@@ -24,7 +24,7 @@ class ScoreBoard extends Component {
     const selectPlayer = bindActionCreators(PlayerActionCreators.selectPlayer, dispatch);
 
     let selectedPlayer;
-    if (selectedPlayerIndex != -1) {
+    if (selectedPlayerIndex !== -1) {
       selectedPlayer = players[selectedPlayerIndex];
     }
   
@@ -46,6 +46,7 @@ class ScoreBoard extends Component {
           { playerComponents }
         </div>
         <AddPlayerForm addPlayer={addPlayer} />
+        
         <PlayerDetail selectedPlayer={selectedPlayer}/>
       </div>
     );
