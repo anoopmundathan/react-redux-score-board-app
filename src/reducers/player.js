@@ -3,20 +3,20 @@ import * as PlayerActionTypes from '../actiontypes/player';
 const initialState = {
   players: [
     {
-      name: 'Jim Hoskins',
+      name: 'Name 1',
       score: 31,
       created: '2017/04/29',
       updated: '2017/04/29'
     },
     {
-      name: 'Andrew Chalkley',
-      score: 20,
+      name: 'Name 2',
+      score: 21,
       created: '2017/04/30',
       updated: '2017/04/29'
     },
     {
-      name: 'Alena Holligan',
-      score: 50,
+      name: 'Name 3',
+      score: 34,
       created: '2017/04/01',
       updated: '2017/04/29'
     }
